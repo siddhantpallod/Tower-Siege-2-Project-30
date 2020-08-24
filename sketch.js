@@ -116,12 +116,12 @@ function draw() {
 
 function mouseDragged(){
   Matter.Body.setPosition(this.ball,{x:mouseX,y:mouseY});
-  Matter.Body.setStatic(block1,false); 
+  
 }
 
 function mouseReleased(){
   slingShot1.fly();
-  Matter.Body.setStatic(block1,false);
+  
 }
 
 function keyPressed(){
